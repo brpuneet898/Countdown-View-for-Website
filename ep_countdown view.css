@@ -1,0 +1,948 @@
+.ep-box-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 15px;
+}
+.ep-box-white-bg {
+  background-color: #fff;
+  height: 100%;
+  border-radius: 3px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.ep-d-flex {
+  display: flex;
+}
+.ep-flex-direction-col {
+  flex-direction: column;
+}
+.ep-box-center {
+  align-items: center;
+}
+.ep-box-text-left {
+  text-align: left !important;
+}
+.ep-box-text-center {
+  text-align: center !important;
+}
+.ep-box-bottom {
+  align-items: flex-end;
+}
+.ep-box-text-right {
+  text-align: right !important;
+}
+.ep-d-flex-v-center {
+  justify-content: center;
+}
+.ep-box-mb-25 {
+  margin-bottom: 16px;
+}
+.ep-card-mb-16 {
+  margin-bottom: 16px;
+}
+.ep-box-h-100 {
+  height: 100%;
+}
+.ep-box-border {
+  border: 1px solid #dae1e7;
+  border-radius: 5px;
+}
+.ep-box-border-right {
+  border-right: 1px solid #dae1e7;
+}
+.ep-box-ptb {
+  padding: 20px 0px;
+}
+.ep-box-p {
+  padding: 20px;
+}
+.booking-page * {
+  box-sizing: border-box;
+}
+.ep-box-wrap {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.ep-box-row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -8px;
+  margin-left: -8px;
+  box-sizing: border-box;
+}
+.ep-box-col-1,
+.ep-box-col-2,
+.ep-box-col-3,
+.ep-box-col-4,
+.ep-box-col-5,
+.ep-box-col-6,
+.ep-box-col-7,
+.ep-box-col-8,
+.ep-box-col-9,
+.ep-box-col-10,
+.ep-box-col-11,
+.ep-box-col-12 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+@media (min-width: 1280px) {
+  .ep-box-col-1 {
+    -ms-flex: 0 0 8.333333%;
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+
+}
+  }
+  .ep-box-col-2 {
+    -ms-flex: 0 0 16.66667%;
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%;
+
+  }
+  .ep-box-col-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+    box-sizing: border-box;
+  }
+  .ep-box-col-4 {
+    -ms-flex: 0 0 33.33333%;
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+
+  }
+  .ep-box-col-5 {
+    -ms-flex: 0 0 41.66667%;
+    flex: 0 0 41.66667%;
+    max-width: 41.66667%;
+
+  }
+  .ep-box-col-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+
+  }
+  .ep-box-col-7 {
+    -ms-flex: 0 0 58.3333333333%;
+    flex: 0 0 58.3333333333%;
+    max-width: 58.3333333333%;
+
+  }
+  .ep-box-col-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+
+  }
+  .ep-box-col-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+
+  }
+  .ep-box-col-10 {
+    -ms-flex: 0 0 83.3333333333%;
+    flex: 0 0 83.3333333333%;
+    max-width: 83.3333333333%;
+
+  }
+  .ep-box-col-11 {
+    -ms-flex: 0 0 91.666667%;
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+  }
+  .ep-box-col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+/* Reports----*/
+/* Dashboard head block  */
+.ep-dashboard-header {
+  text-align: center;
+  padding: 18px 0px;
+  line-height: 50px;
+  margin-top: 24px;
+}
+.ep-dashboard-header .ep-bullet-title {
+  color: #3a4955;
+  font-size: 16px;
+}
+.ep-dashboard-header .ep-bullet-statics {
+  color: #617fde;
+  font-size: 48px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  min-height: 58px;
+}
+.ep-dashboard-header .ep-bullet-link a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  font-size: 12px;
+}
+.ep-dash-user-avatar-bulk .ep-dash-avatar {
+  list-style-type: none;
+  display: inline-block;
+  position: relative;
+  margin: 0 -10px 0 -10px;
+  transform: translate(37.68px, 0) rotate(90deg);
+  opacity: 0;
+}
+.ep-dash-user-avatar-bulk .ep-dash-avatar img {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  -webkit-transition: all 0.3s;
+  -webkit-transform-origin: 50% 100%;
+  border-radius: 100%;
+  border: 1px solid #c5c5c5;
+  box-shadow: 0 0 0 2px #fff;
+}
+.ep-dash-user-avatar-bulk ul.ep-dash-user-avatar {
+  margin: 0px 0px 0px 15px;
+}
+.ep-dashboard-main-container .ep-dashboard-header .ep-box-col-3:last-child {
+  border-right: 0px;
+}
+/* End Dashboard head block  */
+/*--- Report Table---*/
+.ep-report-table-main table.ep-report-table {
+  width: 100%;
+  background-color: #d3dbe2;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  border-collapse: collapse;
+  overflow: hidden;
+}
+.ep-report-table-main table.ep-report-table thead tr th {
+  background-color: #2271b1;
+  color: #fff;
+  border-color: #2e5e84;
+}
+.ep-report-table-main table.ep-report-table td,
+.ep-report-table-main table.ep-report-table th {
+  border: 1px solid #d3dbe2;
+  padding: 8px 20px;
+  vertical-align: top;
+}
+.ep-report-table-main table.ep-report-table span.material-icons {
+  font-size: 18px;
+  color: #0087be;
+}
+.ep-report-table-main
+  table.ep-report-table
+  .rm-login-report-status
+  span.material-icons {
+  font-size: 18px;
+}
+.ep-report-table-main
+  table.ep-report-table
+  .rm-login-report-status
+  .rm-login-status-failure {
+  color: #eb595e;
+}
+.ep-report-table-main
+  table.ep-report-table
+  .rm-login-report-status
+  .rm-login-status-success {
+  color: #32b870;
+}
+.kikfyre .ep-report-table-main table.ep-report-table tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+.kikfyre .ep-report-table-main table.ep-report-table tbody tr:nth-child(even) {
+  background-color: #f7fbfe;
+}
+/*---Ends: Report Table --*/
+/*--Filter Bar---*/
+.ep-report-filter-attr label {
+  width: 100%;
+  display: inline-block;
+  font-weight: 500;
+  color: #000000;
+  padding-bottom: 6px;
+}
+.kikfyre .ep-report-filter-attr input[type="text"],
+.kikfyre .ep-report-filter-attr input[type="email"],
+.kikfyre .ep-report-filter-attr select {
+  font-weight: 400;
+  font-size: 12px;
+  color: #000;
+  padding: 2px 10px;
+  height: 38px;
+  width: 90%;
+  bottom: 0px;
+}
+.ep-box-btn-wrap button.ep-btn-primary {
+  background-color: #2271b1;
+  color: #fff;
+}
+.rm-box-btn-wrap button.rm-btn {
+  border: 1px solid #2271b1;
+  border-radius: 3px;
+  padding: 8px 20px;
+  min-width: 100px;
+  font-size: 14px;
+  margin: 0px 5px;
+  cursor: pointer;
+}
+/*--End Filter Bar---*/
+
+/* My css */
+.ep-btn-1 {
+  border: 1px solid #2271b1;
+  background-color: white;
+  color: #2271b1;
+  border-radius: 3px;
+  padding: 8px 20px;
+  min-width: 100px;
+  font-size: 14px;
+  margin: 0px 5px;
+  cursor: pointer;
+  width: 90%;
+}
+.ep-btn-2 {
+  border: 1px solid #2271b1;
+  background-color: white;
+  color: #2271b1;
+  border-radius: 3px;
+  padding: 8px 20px;
+  min-width: 100px;
+  font-size: 14px;
+  margin: 0px 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.ep-btn-del {
+  border: 1px solid #b12222;
+  background-color: white;
+  color: #b12222;
+  border-radius: 3px;
+  padding: 8px 20px;
+  min-width: 100px;
+  font-size: 14px;
+  margin: 0px 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.ep-btn-remove {
+  border: 1px solid #2248b1d8;
+  background-color: #2248b1d8;
+  color: white;
+  border-radius: 3px;
+  padding: 8px 20px;
+  min-width: 100px;
+  font-size: 14px;
+  margin: 0px 5px;
+  cursor: pointer;
+  width: 90%;
+}
+.ep-text-wt {
+  font-weight: bold;
+}
+.ep-text-color-green {
+  color: #219f69;
+}
+.ep-text-color-blue {
+  color: rgb(65, 119, 199);
+}
+.ep-text-color-lightblue {
+  color: rgb(1, 145, 255);
+}
+.ep-text-color-grey {
+  color: rgb(119, 119, 119);
+}
+.ep-text-color-white {
+  color: white;
+}
+.ep-box-ptb-40-20 {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.ep-box-side {
+  border-top: 1px rgb(165, 200, 212) solid;
+  border-bottom: 1px rgb(165, 200, 212) solid;
+  border-right: 1px rgb(165, 200, 212) solid;
+  background-color: rgb(248, 248, 248);
+}
+.ep-box-plr-20-10 {
+  padding-left: 20px;
+  padding-right: 10px;
+}
+.ep-box-pm-side {
+  padding: 10px 0px 10px 0px;
+  border-top: 1px dashed rgb(165, 200, 212);
+  border-bottom: 1px dashed rgb(165, 200, 212);
+}
+.ep-box-row-hover:hover {
+  background-color: rgb(224, 234, 248);
+}
+.ep-box-p-80-20 {
+  padding: 80px 10px 80px 20px;
+}
+.ep-box-p-no-top {
+  padding: 0px 10px 80px 20px;
+}
+.ep-box-main-border {
+  border: 1px rgb(165, 200, 212) solid;
+}
+.ep-box-main-booking-border {
+  border-bottom: 1px rgb(165, 200, 212) solid;
+}
+.ep-text-font-size {
+  font-size: 20px;
+}
+.ep-text-font-size-25 {
+  font-size: 25px;
+}
+.ep-img-p-l-25 {
+  padding-left: 25px;
+}
+.ep-row-p-t-25 {
+  padding: 25px 0px 0px 0px;
+}
+.ep-box-border:hover {
+  border: rgb(161, 170, 250) 1px solid;
+  border-radius: 5px;
+}
+.ep-box-col-3-p-20 {
+  padding: 20px 20px 20px 20px;
+}
+.ep-box-col-p-40 {
+  padding: 40px 0 0 0;
+}
+.ep-box-text-p {
+  padding-left: 10px;
+}
+.ep-box-text-color-orange {
+  color: rgb(255, 174, 0);
+}
+.ep-box-row-p-t-45 {
+  padding-top: 45px;
+}
+.ep-box-row-p-t-10 {
+  padding-top: 10px;
+}
+.ep-img-p-tl-25 {
+  padding-top: 10px;
+  padding-left: 25px;
+}
+.ep-box-row-p-t-5 {
+  padding-top: 5px;
+}
+.ep-box-row-p-r-30 {
+  padding-right: 50px;
+}
+
+/* My css for tile view */
+.ep-box-border-b {
+  border-bottom: 1px rgb(165, 200, 212) solid;
+}
+.ep-box-row-p-t-20 {
+  padding-top: 20px;
+}
+.ep-box-row-p-b-100 {
+  padding-bottom: 100px;
+}
+.ep-box-img-1:hover {
+  box-shadow: 0 0 30px rgb(138, 135, 135);
+  cursor: pointer;
+}
+.ep-box-img-1 {
+  border-radius: 20px;
+  filter: brightness(60%);
+}
+.ep-box-col-12-p-lr-200 {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.ep-box-img-top-left {
+  position: absolute;
+  top: 30px;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 10px 30px 10px 30px;
+  font-family: acumin-pro,proxima-nova,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  border-radius: 3px;
+}
+.ep-box-img-top-right {
+  position: absolute;
+  top: 40px;
+  right: 30px;
+  color: rgb(214, 212, 212);
+  font-family: acumin-pro,proxima-nova,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+}
+.ep-box-img-bottom-left {
+  position: absolute;
+  bottom: 35px;
+  left: 35px;
+  right: 25px;
+  color: white;
+  font-weight: 500;
+  font-size: 25px;
+  font-family: acumin-pro,proxima-nova,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+}
+.ep-box-img-bottom-left-expired {
+  position: absolute;
+  bottom: 110px;
+  left: 30px;
+  color: white;
+  font-size: 10px;
+  background-color: #000;
+  padding: 2px 10px 2px 10px;
+  border-radius: 2px;
+  font-family: acumin-pro,proxima-nova,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+}
+.ep-box-img-bottom-left-expired-l100 {
+  position: absolute;
+  bottom: 110px;
+  left: 100px;
+  color: white;
+  font-size: 10px;
+  background-color: #000;
+  padding: 2px 10px 2px 10px;
+  border-radius: 2px;
+  font-family: acumin-pro,proxima-nova,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+}
+.ep-box-img-bottom-left-expired-b145 {
+  position: absolute;
+  bottom: 145px;
+  left: 30px;
+  color: white;
+  font-size: 10px;
+  background-color: #000;
+  padding: 2px 10px 2px 10px;
+  border-radius: 2px;
+  font-family: acumin-pro,proxima-nova,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+}
+.ep-box-img-bottom-left-expired-b75-l110 {
+  position: absolute;
+  bottom: 75px;
+  left: 112px;
+  color: white;
+  font-size: 10px;
+  background-color: #000;
+  padding: 2px 10px 2px 10px;
+  border-radius: 2px;
+  font-family: acumin-pro,proxima-nova,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+}
+.ep-box-img-bottom-left-expired-b75 {
+  position: absolute;
+  bottom: 75px;
+  left: 30px;
+  color: white;
+  font-size: 10px;
+  background-color: #000;
+  padding: 2px 10px 2px 10px;
+  border-radius: 2px;
+  font-family: acumin-pro,proxima-nova,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+}
+.ep-box-img-bottom-left-expired-b75-l100 {
+  position: absolute;
+  bottom: 75px;
+  left: 100px;
+  color: white;
+  font-size: 10px;
+  background-color: #000;
+  padding: 2px 10px 2px 10px;
+  border-radius: 2px;
+  font-family: acumin-pro,proxima-nova,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+}
+.ep-box-img-bottom-left-expired-b75-l150 {
+  position: absolute;
+  bottom: 75px;
+  left: 150px;
+  color: white;
+  font-size: 10px;
+  background-color: #000;
+  padding: 2px 10px 2px 10px;
+  border-radius: 2px;
+  font-family: acumin-pro,proxima-nova,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+}
+.ep-box-img-bottom-left-expired-b145-l80 {
+  position: absolute;
+  bottom: 145px;
+  left: 80px;
+  color: white;
+  font-size: 10px;
+  background-color: #000;
+  padding: 2px 10px 2px 10px;
+  border-radius: 2px;
+  font-family: acumin-pro,proxima-nova,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+}
+.ep-box-img-bottom-left-onschedule {
+  position: absolute;
+  bottom: 75px;
+  left: 30px;
+  color: white;
+  font-size: 10px;
+  background-color: #4ecc42;
+  padding: 2px 10px 2px 10px;
+  border-radius: 2px;
+  font-family: acumin-pro,proxima-nova,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+}
+.ep-box-img-bottom-left-cancelled {
+  position: absolute;
+  bottom: 110px;
+  left: 30px;
+  color: white;
+  font-size: 10px;
+  background-color: red;
+  padding: 2px 10px 2px 10px;
+  border-radius: 2px;
+  font-family: acumin-pro,proxima-nova,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+}
+.ep-box-img-bottom-left-cancelled-b75 {
+  position: absolute;
+  bottom: 75px;
+  left: 30px;
+  color: white;
+  font-size: 10px;
+  background-color: red;
+  padding: 2px 10px 2px 10px;
+  border-radius: 2px;
+  font-family: acumin-pro,proxima-nova,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+}
+.ep-box-img-bottom-left-delay {
+  position: absolute;
+  bottom: 75px;
+  left: 100px;
+  color: white;
+  font-size: 10px;
+  background-color: rgb(255, 212, 69);
+  padding: 2px 10px 2px 10px;
+  border-radius: 2px;
+  font-family: acumin-pro,proxima-nova,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+}
+.ep-box-img-bottom-left-delay-b145-l30 {
+  position: absolute;
+  bottom: 145px;
+  left: 30px;
+  color: white;
+  font-size: 10px;
+  background-color: rgb(255, 212, 69);
+  padding: 2px 10px 2px 10px;
+  border-radius: 2px;
+  font-family: acumin-pro,proxima-nova,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+}
+.ep-box-img-bottom-left-location {
+  position: absolute;
+  bottom: 110px;
+  left: 30px;
+  right: 25px;
+  color: white;
+  font-size: 15px;
+  font-family: acumin-pro,proxima-nova,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+}
+.ep-box-img-bottom-left-location1 {
+  position: absolute;
+  bottom: 170px;
+  left: 30px;
+  right: 25px;
+  color: white;
+  font-size: 15px;
+  font-family: acumin-pro,proxima-nova,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+}
+.ep-box-img-label-bg-pink {
+  background-color: rgb(255, 71, 102);
+}
+.ep-box-img-label-bg-red {
+ background-color: rgb(249, 28, 28);
+}
+.ep-box-img-label-bg-blue {
+ background-color:rgb(80, 163, 226);
+}
+.ep-box-img-label-bg-yellow {
+ background-color:rgb(213, 205, 93);
+}
+.ep-box-img-label-bg-green1 {
+  background-color: #4ba37d;
+}
+.ep-box-img-label-bg-orange {
+  background-color: rgb(255, 124, 2);
+}
+.ep-box-img-label-bg-grassgreen {
+  background-color: #4ecc42;
+}
+.ep-box-img-label-bg-purple {
+  background-color: rgb(90, 21, 175);
+}
+.ep-box-img-label-bg-darkyellow {
+ background-color:rgb(255, 217, 0);
+}
+.ep-box-img-label-bg-moredarkyellow {
+  background-color: rgb(255, 179, 28);
+}
+
+
+/* My css for map view */
+
+
+.ep-box-map {
+  padding-bottom: 100px;
+  padding-top: 80px;
+}
+
+
+/* my css for vertical view */
+
+* {
+  box-sizing: border-box;
+}
+
+
+.ep-box-timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ep-box-timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: grey;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+.ep-box-timeline-container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+.ep-box-timeline-container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: grey;
+  border: 4px solid grey;
+  top: 210px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.ep-box-timeline-container-left {
+  left: 0;
+}
+
+.ep-box-timeline-container-right {
+  left: 50%;
+}
+
+.ep-box-timeline-container-left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 220px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid black;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+.ep-box-timeline-container-right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 220px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid black;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+.ep-box-timeline-container-right::after {
+  left: -16px;
+}
+
+.ep-box-timeline-content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+  border: 1px black solid;
+}
+
+@media screen and (max-width: 600px) {
+  .ep-box-timeline::after {
+  left: 31px;
+  }
+  
+  .ep-box-timeline-container {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  
+  .ep-box-timeline-container::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  }
+
+  .ep-box-timeline-container-left::after, .ep-box-timeline-container-right::after {
+  left: 15px;
+  }
+  
+  .ep-box-timeline-container-right {
+  left: 0%;
+  }
+}
+.ep-box-label {
+  padding: 5px 15px 5px 15px;
+  border-radius: 20px;
+}
+
+/* my css for horizontal view */
+
+
+/* my css for advanced map view */
+.ep-box-row-color-grey {
+  background-color: rgb(247, 247, 247);
+  border: 1px solid rgb(187, 187, 187);
+}
+.ep-box-row-p-20-5 {
+  padding: 20px 5px 20px 5px;
+}
+.ep-box-row-m-b-20 {
+  margin: 0px 0px 20px 0px;
+}
+.ep-box-col-12-p-5-15 {
+  padding: 5px 5px 15px 5px;
+}
+.ep-box-dropdown-select-prop {
+    width: 100%;
+    height: 30px;
+    border-radius: 0 2px 2px 0;
+    box-shadow: 1px 1px 5px -1px rgb(0 0 0 / 3%);
+    border: 1px solid #e0e0e0;
+}
+.ep-box-y-slider-ht-600 {
+  max-height: 600px;
+  overflow-y: auto;
+}
+.ep-box-row-bg-lightblue {
+  background-color: rgb(136, 222, 239);
+}
+.ep-box-row-bg-blue {
+  background-color: rgb(91, 213, 237);
+}
+.ep-text-align-center {
+  text-align: center;
+}
+.ep-box-row-date {
+  padding: 5px 0px 5px 14px;
+  margin: 0px 3px 0px 3px;
+}
+.ep-box-row-month {
+  padding: 5px 0px 5px 7px;
+  margin: 0px 3px 0px 3px;
+}
+.ep-box-row-m-tb-3 {
+  margin: 3px -7px;
+}
+.ep-box-border-r-3 {
+  border-radius: 3px;
+}
+.ep-text-font-size-15 {
+  font-size: 15px;
+}
+
+/* my css for countdown view */
+.timer{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    gap: 30px;
+    color:black;
+    /* padding: 15px; */
+}
+.days{
+    background-color: black;
+    color: white;
+    padding: 0px;
+    font-size: 22px;
+}
+
+.hours{
+    background-color: black;
+    color: white;
+    padding: 0px;
+    font-size: 22px;
+}
+.mins{
+    background-color: black;
+    color: white;
+    padding: 0px;
+    font-size: 22px;
+}
+.secs{
+    background-color: black;
+    color: white;
+    padding: 0px;
+    font-size: 22px;
+}
+.ep-box-black-bg {
+  background-color: black;
+}
+.ep-box-row-p-b-50 {
+  padding-bottom: 50px;
+}
+.ep-box-row-p-t-50 {
+  padding-top: 50px;
+}
+.ep-box-row-p-tl-30 {
+  padding: 30px 0px 0px 30px;
+}
+.ep-box-row-p-l-30 {
+  padding-left: 30px;
+}
+.ep-text-font-size-40 {
+  font-size: 40px;
+}
+.ep-text-font-size-30 {
+  font-size: 30px;
+}
+.ep-box-row-p-tl-10 {
+  padding: 10px 0px 0px 10px;
+}
+.ep-box-row-p-20 {
+  padding: 20px;
+}
+.ep-text-font-arial {
+  font-family: Arial, Helvetica, sans-serif;
+}
